@@ -1,0 +1,55 @@
+.singleConference{
+    flex: 9;
+}
+
+  
+  .singleConferenceWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .singleConferenceImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singleConferenceTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+  }
+  .singleConferenceEdit {
+    float: right;
+    font-size: 16px;
+  }
+
+  .icon:first-child {
+    color: teal;
+  }
+  
+  .icon:last-child {
+    color: tomato;
+  }
+  .icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .singleConfereceInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+    color: #c24e88;
+  }
+  .singleConferenceDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }

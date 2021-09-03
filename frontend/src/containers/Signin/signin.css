@@ -1,0 +1,27 @@
+.sigin{
+  height: calc(100vh - 70px);
+/* display: flex; */
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: linear-gradient(
+    rgba(238, 219, 219, 0.5),
+    rgba(243, 228, 228, 0.5)
+  ),
+  url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/84366486/original/c490739223326be0ddccbf3bd1d7381ce7926fa5/do-stunning-background-videos-for-your-website.png");
+background-size: cover;
+}
+.siginForm{
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.siginbrt{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(72, 34, 90);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
